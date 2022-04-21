@@ -10,10 +10,7 @@ public class Client {
         AbstractCommand command;
         command = new AddCommand();
         form.setCommand(command);
-
         form.compute(100);
         form.compute(50);
         form.compute(100);
-        form.undo();
-    }
-}
+        form.undo(); }}

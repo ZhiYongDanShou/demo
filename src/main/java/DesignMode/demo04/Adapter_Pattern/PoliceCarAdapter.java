@@ -9,20 +9,13 @@ public class PoliceCarAdapter extends Carcontroller {
     //定义适配者对象
     private PoliceSound sound;
     private PloiceLamp lamp;
-
     //对适配者对象实例化
     public PoliceCarAdapter() {
       sound = new PoliceSound();
-      lamp = new PloiceLamp();
-    }
-
+      lamp = new PloiceLamp();}
     @Override
     public void phonate() {
-        sound.alarmSound();
-    }
-
+        sound.alarmSound(); }
     @Override
     public void twinkle() {
-        lamp.alarmLamp();
-    }
-}
+        lamp.alarmLamp(); }}

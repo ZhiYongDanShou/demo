@@ -8,8 +8,5 @@ public abstract class Carcontroller {
     public void move() {
         System.out.println("汽车移动");
     }
-
     public abstract void phonate();
-
-    public abstract void twinkle();
-}
+    public abstract void twinkle();}

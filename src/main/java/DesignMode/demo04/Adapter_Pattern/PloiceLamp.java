@@ -6,6 +6,4 @@ package main.java.DesignMode.demo04.Adapter_Pattern;
  */
 public class PloiceLamp {
     public void alarmLamp(){
-        System.out.println("警灯闪烁");
-    }
-}
+        System.out.println("警灯闪烁"); }}

@@ -4,19 +4,8 @@ package main.java.DesignMode.demo03.Lazy_Singleton;
  * @author shkstart
  * @create 2022-03-17 {TIME}
  */
-public class
-
-
-
-
-
-President {
-
-
-
-    
+public class President {
     private static President instance = null;
-
 
     public President() {
     }

@@ -9,7 +9,4 @@ public class Client {
         PoliceCarAdapter policeCarAdapter = new PoliceCarAdapter();
         policeCarAdapter.move();
         policeCarAdapter.phonate();
-        policeCarAdapter.twinkle();
-
-    }
-}
+        policeCarAdapter.twinkle(); }}

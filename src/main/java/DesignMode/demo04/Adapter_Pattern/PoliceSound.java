@@ -6,6 +6,4 @@ package main.java.DesignMode.demo04.Adapter_Pattern;
  */
 public class PoliceSound {
     public void alarmSound() {
-        System.out.println("发出鸣笛声音");
-    }
-}
+        System.out.println("发出鸣笛声音"); }}

@@ -19,6 +19,7 @@ public class Client {
         AbstractObjectList list;
         Abstractlterator abstractlterator;
 
+
         list = new ProductList(products);
         abstractlterator = list.createlterator();
 
